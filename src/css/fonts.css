@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Raleway:wght@700&display=swap');
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #434455;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo,
+.logo_span,
+.footer_span {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.team_list_title,
+.portfolio_list_title,
+.menu-list-first,
+.menu-contacts,
+.plan_list_title,
+.footer_form_text,
+.modal_title,
+.form_btn,
+.hero_btn,
+.footer_form_btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.footer_text,
+.port_list_text,
+.team_list_text,
+.check_box_label {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
