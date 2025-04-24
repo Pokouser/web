@@ -4,7 +4,7 @@
     background-color: #F4F4FD;
     padding: 120px 0;
     text-align: center;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/portf/bank_app.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/portf/ChatGPT\ Image\ 24\ апр.\ 2025\ г.\,\ 23_57_10.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -257,4 +257,357 @@
     border: 1px solid #e7e9fc;
     border-radius: 4px;
     padding: 16px 32px;
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: 296px;
+        padding: 0 16px;
+        margin: 0 auto;
+    }
+    
+    .header_wrapper {
+        padding: 16px 0;
+    }
+    
+    .nav_list {
+        display: none;
+    }
+    
+    .address_list {
+        display: none;
+    }
+    
+    .image_portfolio {
+        padding: 72px 0;
+        margin-bottom: 60px;
+        background-position: center;
+    }
+    
+    .h1 {
+        font-size: 36px;
+        line-height: 1.11;
+        margin-bottom: 16px;
+    }
+    
+    .text_image_portfolio {
+        font-size: 14px;
+        max-width: 100%;
+    }
+    
+    .btn_image_portfolio {
+        margin-top: 32px;
+    }
+    
+    .overview {
+        padding: 48px 0;
+    }
+    
+    .h2_title {
+        font-size: 28px;
+        margin-bottom: 48px;
+    }
+    
+    .overview_ul {
+        flex-direction: column;
+        gap: 48px;
+        margin-bottom: 48px;
+    }
+    
+    .icon-container {
+        width: 100%;
+    }
+    
+    .ul_list {
+        justify-content: center;
+        margin-bottom: 48px;
+    }
+    
+    .step {
+        flex-direction: column;
+        gap: 48px;
+        margin-bottom: 72px;
+    }
+    
+    .li_step {
+        width: 100%;
+    }
+    
+    .key_section .step {
+        flex-direction: column;
+        gap: 48px;
+        margin-bottom: 72px;
+    }
+    
+    .outcomes {
+        padding: 48px 0;
+    }
+    
+    .outcomes_list {
+        flex-direction: column;
+        gap: 32px;
+        margin-bottom: 48px;
+    }
+    
+    .outcomes_item {
+        width: 100%;
+    }
+    
+    .testimonial-otziv {
+        padding: 24px 16px;
+    }
+    
+    .btn_testimonials {
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+    }
+    
+    .portfolio {
+        padding: 48px 0;
+    }
+    
+    .port_inf {
+        flex-direction: column;
+        gap: 48px;
+    }
+    
+    .port_list_item {
+        width: 100%;
+    }
+    
+    .footer {
+        padding: 48px 0;
+    }
+    
+    .footer_wrap {
+        flex-direction: column;
+        gap: 48px;
+        text-align: center;
+    }
+    
+    .footer_info_left, 
+    .footer_info_right, 
+    .footer_form_wrapper {
+        width: 100%;
+    }
+    
+    .footer_icon_list {
+        justify-content: center;
+    }
+    
+    .footer_form {
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+    }
+    
+    .footer_form_input {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+    .container {
+        max-width: 768px;
+        padding: 0 16px;
+    }
+    
+    .header_wrapper {
+        padding: 16px 0;
+    }
+    
+    .logo {
+        margin-right: 120px;
+    }
+    
+    .address_list {
+        flex-direction: column;
+        gap: 12px;
+    }
+    
+    .address_list_item a {
+        font-size: 12px;
+    }
+    
+    .image_portfolio {
+        padding: 96px 0;
+        margin-bottom: 96px;
+    }
+    
+    .h1 {
+        font-size: 48px;
+    }
+    
+    .text_image_portfolio {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    
+    .overview_ul {
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+    
+    .overview_ul > li {
+        width: calc((100% - 24px) / 2);
+    }
+    
+    .ul_list {
+        justify-content: flex-start;
+    }
+    
+    .step {
+        flex-wrap: wrap;
+        gap: 24px;
+        margin-bottom: 96px;
+    }
+    
+    .li_step {
+        width: calc((100% - 24px) / 2);
+    }
+    
+    .key_section .step {
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+    
+    .outcomes {
+        padding: 96px 0;
+    }
+    
+    .outcomes_list {
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+    
+    .outcomes_item {
+        width: calc((100% - 24px) / 2);
+    }
+    
+    .portfolio {
+        padding: 96px 0;
+    }
+    
+    .port_inf {
+        flex-wrap: wrap;
+        gap: 72px 24px;
+    }
+    
+    .port_list_item {
+        width: calc((100% - 24px) / 2);
+    }
+    
+    .footer_wrap {
+        flex-wrap: wrap;
+        gap: 72px 24px;
+        width: 584px;
+    }
+    
+    .footer_info_left, 
+    .footer_info_right {
+        text-align: left;
+    }
+    
+    .footer_form {
+        flex-direction: row;
+        gap: 24px;
+    }
+    
+    .footer_form_input {
+        width: 264px;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1158px;
+        padding: 0 15px;
+    }
+    
+    .header_wrapper {
+        padding: 24px 0;
+    }
+    
+    .logo {
+        margin-right: 76px;
+    }
+    
+    .address_list {
+        flex-direction: row;
+        gap: 40px;
+    }
+    
+    .address_list_item a {
+        font-size: 16px;
+        line-height: 150%;
+    }
+    
+    .image_portfolio {
+        padding: 120px 0;
+        margin-bottom: 150px;
+    }
+    
+    .overview_ul {
+        display: flex;
+        gap: 24px;
+    }
+    
+    .overview_ul > li {
+        width: calc((100% - 72px) / 4);
+    }
+    
+    .step {
+        display: flex;
+        gap: 24px;
+        margin-bottom: 192px;
+    }
+    
+    .li_step {
+        width: 264px;
+    }
+    
+    .outcomes {
+        padding: 120px 0;
+    }
+    
+    .outcomes_list {
+        display: flex;
+        gap: 24px;
+    }
+    
+    .outcomes_item {
+        width: calc((100% - 72px) / 4);
+    }
+    
+    .portfolio {
+        padding: 120px 0;
+    }
+    
+    .port_inf {
+        display: flex;
+        gap: 24px;
+    }
+    
+    .port_list_item {
+        width: calc((100% - 48px) / 3);
+    }
+    
+    .footer {
+        padding: 100px 0;
+    }
+    
+    .footer_wrap {
+        display: flex;
+        align-items: baseline;
+        gap: 0;
+    }
+    
+    .footer_info_left {
+        margin-right: 120px;
+    }
+    
+    .footer_info_right {
+        margin-right: 80px;
+    }
 }
