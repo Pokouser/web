@@ -143,7 +143,7 @@
     background-color: #F4F4FD;
             padding: 120px 0;
             text-align: center;
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/team/ChatGPT\ Image\ 24\ апр.\ 2025\ г.\,\ 23_33_04.png);   
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/team/team-1.png);   
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -381,9 +381,9 @@
 }
 
 
-/* Медиа-запросы для team-member.html */
 
-/* Мобильные устройства (до 767px) */
+
+
 @media screen and (max-width: 767px) {
     .container {
         max-width: 296px;
@@ -391,7 +391,7 @@
         margin: 0 auto;
     }
     
-    /* Хедер */
+
     .header_wrapper {
         padding: 16px 0;
     }
@@ -404,7 +404,7 @@
         display: none;
     }
     
-    /* Секция героя */
+
     .image_team {
         padding: 72px 0;
         background-position: center;
@@ -428,7 +428,6 @@
         margin-top: 32px;
     }
     
-    /* Секция About */
     .about-section {
         padding: 48px 0;
     }
@@ -474,7 +473,6 @@
         width: 100%;
     }
     
-    /* Секция контактов */
     .contact-section {
         padding: 48px 0;
     }
@@ -487,7 +485,6 @@
         width: 100%;
     }
     
-    /* Секция команды */
     .team {
         padding: 48px 0;
     }
@@ -503,7 +500,6 @@
         gap: 48px;
     }
     
-    /* Футер */
     .footer_wrap {
         flex-direction: column;
         gap: 48px;
@@ -531,14 +527,12 @@
     }
 }
 
-/* Планшеты (768px - 1157px) */
 @media screen and (min-width: 768px) and (max-width: 1157px) {
     .container {
         max-width: 768px;
         padding: 0 16px;
     }
     
-    /* Хедер */
     .header_wrapper {
         padding: 16px 0;
     }
@@ -556,7 +550,6 @@
         font-size: 12px;
     }
     
-    /* Секция героя */
     .image_team {
         padding: 96px 0;
     }
@@ -569,7 +562,6 @@
         max-width: 80%;
     }
     
-    /* Секция About */
     .about-section {
         padding: 64px 0;
     }
@@ -597,7 +589,6 @@
         width: calc((100% - 24px) / 2);
     }
     
-    /* Секция команды */
     .team {
         padding: 96px 0;
     }
@@ -612,7 +603,6 @@
         width: calc((100% - 24px) / 2);
     }
     
-    /* Футер */
     .footer_wrap {
         flex-wrap: wrap;
         gap: 72px 24px;
@@ -641,7 +631,6 @@
         padding: 0 15px;
     }
     
-    /* Хедер */
     .header_wrapper {
         padding: 24px 0;
     }
@@ -660,12 +649,10 @@
         line-height: 150%;
     }
     
-    /* Секция героя */
     .image_team {
         padding: 120px 0;
     }
     
-    /* Секция About */
     .about-section {
         padding: 120px 0;
     }
@@ -689,7 +676,6 @@
         width: calc((100% - 48px) / 3);
     }
     
-    /* Секция команды */
     .team {
         padding: 120px 0;
     }
@@ -703,7 +689,6 @@
         width: calc((100% - 72px) / 4);
     }
     
-    /* Футер */
     .footer {
         padding: 100px 0;
     }
